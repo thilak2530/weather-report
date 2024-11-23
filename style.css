@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(98, 78, 78);
+    flex: 1;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#7b8986,#4a4955);
+    color: #fff;
+    margin: 100px auto 0;
+    padding: 45px 35px;
+    border-radius: 20px;
+    text-align: center;
+   
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.search input{
+    height: 40px;
+    width: 350px;
+    border: 0px;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    border-radius: 2rem;
+    padding-left: 10px;
+}
+.search button{
+    height: 40px;
+    border: 0px;
+    outline: 0;
+    border-radius: 50%;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    cursor: pointer;
+}
+.wheather-icon{
+    width: 100px;
+    height: 100px;    
+    margin-top: 5px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+    display:flex;
+    margin-top: 50px;
+}
+.col img{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    
+}
+.wheather{
+    display: none;
+}
+
+.error{
+    text-align: left;
+    margin-left: 15px;
+    display: none;
+}
